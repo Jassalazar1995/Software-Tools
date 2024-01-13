@@ -1,8 +1,8 @@
 
-# Chapter Integrator Documentation
+# Chapter Composer Documentation
 
 ## Overview
-Chapter Integrator is a Node.js script designed to automate the process of updating the `chapterContents.js` file for educational course websites. It parses structured data from a source file and generates a JavaScript object, which it then writes to the `chapterContents.js` file.
+Chapter composer is a Node.js script designed to automate the process of updating the `chapterContents.js` file for educational course websites. It parses structured data from a source file and generates a JavaScript object, which it then writes to the `chapterContents.js` file.
 
 ## Requirements
 - Node.js installed on your system.
@@ -14,12 +14,12 @@ No specific installation required. Ensure you have Node.js installed on your sys
 ## Usage
 1. **Prepare Source Data File**: Create a JSON file (`sourceData.json`) with the structured data for your chapters. The format should match the expected structure in `chapterContents.js`.
 
-2. **Place the Source Data File**: Put `sourceData.json` in the same directory as `chapter-integrator.js`.
+2. **Place the Source Data File**: Put `sourceData.json` in the same directory as `chapter-composer.js`.
 
 3. **Run the Script**: Navigate to the script's directory in your command line interface and run:
 
    ```bash
-   node chapter-integrator.js
+   node chapter-composer.js
    ```
 
 4. **Check Output**: The `chapterContents.js` file will be updated or created in the same directory with the new chapter data.

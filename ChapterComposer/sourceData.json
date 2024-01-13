@@ -1,0 +1,16 @@
+{
+    "advancedTopology": {
+      "title": "Advanced Topology Concepts",
+      "image": "./images/advtopology/concepts.jpg",
+      "path": "advancedTopology",
+      "subsections": [
+        "Homeomorphism",
+        "Fundamental Group",
+        "Covering Spaces",
+        "Homotopy"
+      ],
+      "content": "Explore the fundamental concepts of advanced topology, including homeomorphisms, fundamental groups, covering spaces, and homotopy.",
+      "youtubeChannelId": "UCAdvTopology123"
+    }
+  }
+  
